@@ -57,7 +57,7 @@ let mySprite: Sprite = null
 scene.setBackgroundImage(assets.image`black`)
 tiles.setCurrentTilemap(tilemap`level_1`)
 mySprite = sprites.create(assets.image`sprite`, SpriteKind.Player)
-mySprite.setPosition(32, 185)
+mySprite.setPosition(32, 440)
 controller.moveSprite(mySprite, 100, 0)
 mySprite.ay = 500
 scene.cameraFollowSprite(mySprite)
