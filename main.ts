@@ -10,7 +10,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     false
     )
     if (game.runtime() - LastPressed >= TimebetweenPresses) {
-        mySprite.vy = -150
+        mySprite.vy = -180
         LastPressed = game.runtime()
     }
 })
@@ -62,4 +62,4 @@ controller.moveSprite(mySprite, 100, 0)
 mySprite.ay = 500
 scene.cameraFollowSprite(mySprite)
 LastPressed = 0
-TimebetweenPresses = 600
+TimebetweenPresses = 1000
