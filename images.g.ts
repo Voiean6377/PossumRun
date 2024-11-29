@@ -372,6 +372,26 @@ ffffffffffffffffffffffffffffffffffffffffffffffffff
 . . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . 
 `];
+            case "hurt":
+            case "anim4":return [img`
+. . . 4 4 4 . . . 4 . . 4 . . . . 
+4 4 4 . . 4 4 . . 4 . . 4 . . . . 
+. . 4 . . . . . . 4 . . . . . . . 
+. . . e e e . . . . . e e e . 4 4 
+. . . . e e . . . . . e e . 4 4 . 
+4 . . . e e c c c c c e e . . . . 
+4 4 . c c c d c c c d c c c . . . 
+. . . c c c d c c 2 2 2 2 c . . . 
+. . . c c c d c c 2 2 2 2 c . 4 . 
+. . . . 2 c 2 c c 2 2 2 c . . 4 . 
+. . . e 2 c 2 2 c 2 c 2 c e . 4 4 
+4 4 . e 2 2 2 2 2 2 e 2 2 e . . . 
+. . . e 2 2 2 2 2 2 e 2 e e . . . 
+. . . . e 2 2 2 2 e 2 2 e . . . . 
+4 4 4 . . e e 2 2 e 2 2 . . . . . 
+4 . . . . . e 2 . . e . . . 4 4 4 
+. . . . . . e . . . e . . . . . . 
+`];
         }
         return null;
     })

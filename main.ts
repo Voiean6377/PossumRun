@@ -17,6 +17,12 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 scene.onOverlapTile(SpriteKind.Player, assets.tile`mine`, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`transparency16`)
     info.changeLifeBy(-1)
+    animation.runImageAnimation(
+    mySprite,
+    assets.animation`hurt`,
+    500,
+    false
+    )
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
